@@ -68,7 +68,7 @@ def generate_random_number(start, end):
     return random.randint(start, end)
 
 def printStatus(possibilidades, tentativas, progresso, hashesPorSegundo, divisoes):
-	os.system('cls')
+	os.system('clear')
 	print('processando com ' + formatNumber(divisoes) + ' divisoes...')
 	print('possibilidades: ' + formatNumber(possibilidades))
 	print('possibilidades restantes: ' + formatNumber(possibilidades-tentativas))
