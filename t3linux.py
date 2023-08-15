@@ -12,9 +12,9 @@ def formatNumber(n):
     return f"{n:,}"
 
 #------> parametros
-start_rangeHex = '0000000000000000000000000000000000000000000000000000000000040000'
-end_rangeHex = '000000000000000000000000000000000000000000000000000000000007ffff'
-solution = '1NWmZRpHH4XSPwsW6dsS3nrNWfL1yrJj4w'
+start_rangeHex = '0000000000000000000000000000000000000000000000020000000000000000'
+end_rangeHex = '000000000000000000000000000000000000000000000003ffffffffffffffff'
+solution = '13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so'
 
 start_rangeDec = int(start_rangeHex, 16)
 end_rangeDec = int(end_rangeHex, 16)
